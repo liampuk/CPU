@@ -19,7 +19,7 @@ Features of the CPU include:
 
 ROM is used to store program code, and RAM is used during program execution to store data. The CPU determines whether to access ROM or RAM based on the current instruction (e.g. `MOV [A], B` is a memory operation, so RAM will be accessed).
 
-ROM will be implemented using an EEPROM, which can be programmed with a dip switch. This enables the CPU to retain program data when turned off. ROM contains the program code.
+ROM will be implemented using an EEPROM, which can be programmed with a dip switch. This enables the CPU to retain program data when turned off.
 
 ## ALU
 

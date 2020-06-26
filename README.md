@@ -38,3 +38,9 @@ The table below describes how these inputs are combined to carry out functions.
 | XOR | 110  | 1    | A     | B     |
 | NOT | 011  | 1    | 0     | A     |
 | CMP | 001  | 0    | A     | B     |
+
+## Front panel mockup
+
+![front panel](https://i.imgur.com/BZzQpYz.jpg)
+
+The front panel features address and data switches for inputting program code, a display for the bus and status register and another selectable register (A, B, C, D, PC or SP). It also has a guide for converting assembly to machine code - though this will change as there are too many to fit. Output is sent to a din port on the front panel, and displayed in hex in the top right.

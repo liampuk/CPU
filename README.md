@@ -60,8 +60,7 @@ Currently the control word is far too long, it will likely need to be cut down (
 - ALUo, MODE (3-bit)
 - SRai, SRii, Dint
 
-This makes 33(!) control lines, need to reduce by 1.
-- (Maybe make interrupt toggle instead of part of control word)
+This makes 32 control lines.
 
 ROMi is not in the control word as it is controlled by the front panel run/program mode switch.
 

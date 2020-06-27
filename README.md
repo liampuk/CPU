@@ -38,3 +38,5 @@ The table below describes how these inputs are combined to carry out functions.
 | XOR | 110  | 1    | A     | B     |
 | NOT | 011  | 1    | 0     | A     |
 | CMP | 001  | 0    | A     | B     |
+
+The ALU outputs ZNOC flags (zero, negative, overflow and carry).

@@ -58,7 +58,7 @@ Currently the control word is far too long, it will likely need to be cut down (
 - Xi, CLR (X)
 - Yi, CLR (Y)
 - ALUo, MODE (3-bit)
-- SRai, SRii, Dint
+- SRai, SRit
 
 This makes 32 control lines.
 

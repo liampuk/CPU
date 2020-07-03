@@ -67,8 +67,16 @@ ROMi is not in the control word as it is controlled by the front panel run/progr
 
 ## Front panel mockup
 
+### Option 1
+
 ![front panel](https://i.imgur.com/BZzQpYz.jpg)
 
 The front panel features address and data switches for inputting program code, a display for the bus and status register and another selectable register (A, B, C, D, PC or SP). It also has a guide for converting assembly to machine code - though this will change as there are too many to fit. Output is sent to a din port on the front panel, and displayed in hex in the top right.
 
 - Write may not be needed - step probably does the same thing.
+
+### Option 2
+
+![front panel 2](https://i.imgur.com/cRPgC4w.png)
+
+Inspired by the original DEC PDP-8.

@@ -79,4 +79,11 @@ The front panel features address and data switches for inputting program code, a
 
 ![front panel 2](https://i.imgur.com/nRWrgTW.png)
 
-Inspired by the original DEC PDP-8.
+The front panel design is inspired by the original DEC PDP-8. It also has a slightly different architecture, including a 4-bit bank (or page) register to allow the computer to address 4096 bytes. The controls are also slightly different:
+- Load sets the address to the value selected with the switches.
+- Dep (deposit) writes the value selected to that address and increments the address by 1 (for this reason it may be necessary to use a counter to implement the MAR).
+- Exam (examine) looks at the value in ram at the current address and increments the address by 1.
+- Reset resets all registers (including the PC, MAR & SP) to 0.
+- Step runs one instruction.
+- Run disables the front panel and engages the clock.
+- Fast toggles between a slow and fast setting for the clock speed.

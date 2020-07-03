@@ -77,6 +77,6 @@ The front panel features address and data switches for inputting program code, a
 
 ### Option 2
 
-![front panel 2](https://i.imgur.com/cRPgC4w.png)
+![front panel 2](https://i.imgur.com/nRWrgTW.png)
 
 Inspired by the original DEC PDP-8.
